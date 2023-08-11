@@ -14,7 +14,7 @@ jobs:
   - task: SonarQubePrepare@4
     displayName: Prepare analysis on SonarQube
     inputs:
-      SonarQube: 03e9c6c6b5ad5d68097aaee3b1e3ff6af1829fdf
+      SonarQube: http://teste-rm96055.azurewebsites.net/
       projectKey: aplicacao-teste
       projectName: aplicacao-teste
   - task: DotNetCoreCLI@2
