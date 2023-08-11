@@ -14,7 +14,7 @@ jobs:
   - task: SonarQubePrepare@4
     displayName: Prepare analysis on SonarQube
     inputs:
-      SonarQube: http://teste-rm96055.azurewebsites.net/
+      SonarQube: teste
       projectKey: aplicacao-teste
       projectName: aplicacao-teste
   - task: DotNetCoreCLI@2
